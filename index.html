@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Avaliação S8</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Triângulos</h1>
+        <p>Triângulos são figuras geométricas formadas por três segmentos de reta que se encontram nas extremidades.
+            Assim, são polígonos com três lados, três ângulos e três vértices. Um triângulo é um polígono que possui
+            três lados e que necessariamente é uma figura plana cujos lados são segmentos de reta.</p>
+        <div class="form-input">
+            <div>
+                <h3>Tipo de triângulo</h3>
+            </div>
+            <div class="form-outline">
+                <label class="form-label" for="typeNumber">Lado 1</label>
+                <input type="number" id="lado1" class="form-control" required>
+            </div>
+            <div class="form-outline">
+                <label class="form-label" for="typeNumber">Lado 2</label>
+                <input type="number" id="lado2" class="form-control" />                
+            </div>
+            <div class="form-outline">
+                <label class="form-label" for="typeNumber">Lado 3</label>
+                <input type="number" id="lado3" class="form-control" />                
+            </div>
+            <div class="btn-calcular">
+                <button type="button" id="enviar" class="btn btn-primary">Calcular</button>
+            </div>
+        </div>
+
+        <div class="triangulos">
+            <div class="isosceles">
+                <h3>Isósceles</h3>
+                <p>Caracterizado por ter dois lados com a mesma medida, chamados de congruentes, e um diferente, que
+                    geralmente é usado como base do triângulo. Nesse triângulo, os dois ângulos adjacentes à base também
+                    são
+                    congruentes.</p>
+            </div>
+            <div class="escaleno">
+                <h3>Escaleno</h3>
+                <p>No triângulo escaleno, os três lados possuem medidas diferentes umas das outras e, consequentemente,
+                    os
+                    ângulos são diferentes entre si.</p>
+            </div>
+            <div class="equilatero">
+                <h3>Equilátero</h3>
+                <p>É o triângulo cujos lados são todos congruentes, ou seja, têm a mesma medida. Com isso, os três
+                    ângulos
+                    também são iguais e medem 60 graus.</p>
+            </div>
+            <div class="btn-recomecar">
+                <button type="button" id="recomecar" class="btn btn-primary">Recomeçar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js" defer></script>
+</body>
+
+</html>

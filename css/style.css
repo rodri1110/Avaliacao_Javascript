@@ -1,0 +1,38 @@
+.form-input{
+    max-width: 380px;
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.form-input h3{
+    text-align: center;
+}
+
+.btn-calcular{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.btn-recomecar{
+    display: none;
+    text-align: center;
+}
+
+.equilatero{
+    display: none;
+}
+
+.isosceles{
+    display: none;
+}
+
+.escaleno{
+    display: none;
+}
+
+.container{
+    margin-top: 5%;
+    padding: 20%;
+    padding-top: 0;
+}
